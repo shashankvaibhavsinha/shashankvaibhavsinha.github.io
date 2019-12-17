@@ -1,4 +1,46 @@
 <html>
-  <body>sdfsdsd
-  </body>
+<head>
+    <base href="/resume/">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank Vaibhav</title>
+    <link rel="icon" href="assets/images/resume.png">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- <ngx-ui-loader></ngx-ui-loader> -->
+<app-root></app-root>
+
+<script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="vendor-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$(document).ready(function(){
+    if(window.matchMedia("(min-width: 764px)").matches){
+        $("a").click(function(){
+            $('.sub-content').hide("slide", { direction: "left" }, 500, function () {
+                $('.sub-content').show("slide", { direction: "left" }, 500);
+            });
+        });
+        $('.sub-content').hide("slide", { direction: "left" }, 500, function () {
+            $('.sub-content').show("slide", { direction: "left" }, 500);
+        });
+    }
+});
+</script>
+<script src="https://github.com/tengbao/vanta/blob/master/vendor/three.r92.min.js"></script><script src="https://github.com/tengbao/vanta/blob/master/dist/vanta.birds.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+<script>
+  VANTA.BIRDS({
+    el: "body",
+    backgroundColor: 0xfefce1,
+    color1: 0x845252,
+    color2: 0x61787d
+  })
+</script>
+
 </html>
